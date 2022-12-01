@@ -98,8 +98,12 @@ span.header-logo {
   margin-left: 50px;
 }
 
-.header-icon:hover {
+.header-icon:focus {
   fill: var(--second-logo-color);
+  }
+  .header-icon {
+    fill: currentColor;
+    margin-right: 10px;
   }
 
 .header-mail,
